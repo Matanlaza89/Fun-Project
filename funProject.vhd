@@ -3,10 +3,10 @@
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
--------			                Fun Project      				   	    -------
+-------			            Fun Project       	              -------
 -----------------------------------------------------------------------------
------- 				This entity mimics the default action of the         ------
------- 				   development board when it is turned on            ------
+------ 		  This entity mimics the default action of the         ------
+------ 		     development board when it is turned on            ------
 -----------------------------------------------------------------------------
 
 
@@ -15,7 +15,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity funProject is
-port(
+	port(
 		-- Inputs --
 		CLOCK_50 : in std_logic;
 		KEY 		: in std_logic_vector (0 downto 0);
@@ -27,7 +27,7 @@ port(
 		HEX3 : out std_logic_vector(6 downto 0);
 		LEDR : out std_logic_vector(9 downto 0);
 		LEDG : out std_logic_vector(7 downto 0)
-		);
+	    );
 end entity funProject;
 
 architecture rtl of funProject is
@@ -53,7 +53,7 @@ architecture rtl of funProject is
 				when "1101" => return "0100001"; -- d
 				when "1110" => return "0000110"; -- e
 				when "1111" => return "0001110"; -- f
-			    when others => return "UUUUUUU"; -- 0
+			        when others => return "UUUUUUU"; -- 0
 			end case;
 	end function binaryTo7Segment;
 
