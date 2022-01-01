@@ -50,7 +50,7 @@ begin
 	begin
 		i_reset <= '0'; wait for c_PERIOD;
 		i_reset <= '1'; wait for c_PERIOD * 15; 
-		wait;
+		wait; 
 	end process p_TB;
 	
 	
