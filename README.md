@@ -1,6 +1,6 @@
 <h2><u>Welcome to Fun Project Personal Project using VHDL</u></h2>
 <p>
-This entity mimics the default action of the development board when it is turned on.<br>
+This entity mimics the default action of the development board when it is turned on.<br><br>
 Link for the project video: <a href="https://youtu.be/KWA6I9wV8XQ" target="_blank">Fun Project Video</a>
 </p>
 <h4><u>Files included:</u></h4>
