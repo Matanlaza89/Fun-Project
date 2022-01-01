@@ -5,10 +5,11 @@ This entity mimics the default action of the development board when it is turned
 <h4><u>Files included:</u></h4>
 <p>
 - clockDivider.vhd  =>  Entity RTL Code<br>
-- clockDividerTB.vhd  =>  Testbench RTL Code<br>
-- clockDividerBlock.JPG  =>  Entity block<br>
-- clockDivider.jpg  =>  The design shell<br>
-- clockDividerTB.jpg  =>  Testing the entity to get 1 MHz new clock<br>
+- funProject.vhd    =>  Entity RTL Code<br>
+- funProjectTB.vhd  =>  Testbench RTL Code<br>
+- funProjectBlock.JPG  =>  Entity block<br>
+- funProject.jpg  =>  The design shell<br>
+- funProjectTB.jpg  =>  Testing the entity<br>
 </p>
 <table>
     <tr>
@@ -19,6 +20,8 @@ This entity mimics the default action of the development board when it is turned
 
 <h1><u>Testbench Tasks</u></h1>
 <p>
-- 1 MHz clock with 50% duty cycle <br>
-- 1 MHz single pulse tick<br>
+- Testing the movement of the LEDR <br>
+- Testing the movement of the LEDG <br>
+- Testing the change in value of the 7-segments display <br>
+- *** Note - There are 2 signals of 1 MHz in order to make the test easier ***
 </p>
