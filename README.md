@@ -2,7 +2,7 @@
 <p>
 This entity mimics the default action of the development board when it is turned on.<br>
 Link for the video: https://www.youtube.com/watch?v=ESImiwyXLoQ<br>
-Project Video: [Link for the video](https://www.youtube.com/watch?v=ESImiwyXLoQ "Fun Project Video")
+Project Video: <a href="https://www.youtube.com/watch?v=ESImiwyXLoQ/" target="_blank">Fun Project Video</a>
 </p>
 <h4><u>Files included:</u></h4>
 <p>
