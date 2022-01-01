@@ -97,7 +97,7 @@ begin
 			i_clk   => i_clk ,
 			i_reset => i_reset ,  
 			o_clk   => w_3hz_clk,
-			o_tick  => open);
+			o_tick  => open); 
 	------------------------------------------------------------------------
 	
 	
