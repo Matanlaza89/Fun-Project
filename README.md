@@ -1,6 +1,7 @@
 <h2><u>Welcome to Fun Project Personal Project using VHDL</u></h2>
 <p>
-This entity mimics the default action of the development board when it is turned on.
+This entity mimics the default action of the development board when it is turned on.<br>
+Link for the video: [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 </p>
 <h4><u>Files included:</u></h4>
 <p>
