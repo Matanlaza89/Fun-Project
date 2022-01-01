@@ -3,7 +3,8 @@
 This entity mimics the default action of the development board when it is turned on.<br><br>
 Link for the project video: <a href="https://youtu.be/KWA6I9wV8XQ" target="_blank">Fun Project Video</a>
 </p>
-<u>Files included:</u>
+<h4><u>Files included:</u></h4>
+<u></u>
 <p>
 - clockDivider.vhd  =>  Entity RTL Code<br>
 - funProject.vhd    =>  Entity RTL Code<br>
