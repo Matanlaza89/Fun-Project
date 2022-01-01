@@ -17,10 +17,8 @@ use ieee.numeric_std.all;
 entity funProject is
 port(
 		-- Inputs --
-		--CLOCK_50 : in std_logic;
-		--KEY 		: in std_logic_vector (0 downto 0);
-		i_clk   : in std_logic;
-		i_reset : in std_logic;
+		CLOCK_50 : in std_logic;
+		KEY 		: in std_logic_vector (0 downto 0);
 		
 		-- Outputs --
 		HEX0 : out std_logic_vector(6 downto 0);
@@ -60,12 +58,12 @@ architecture rtl of funProject is
 	end function binaryTo7Segment;
 
 	-- Aliases --
-	--alias i_clk : std_logic is CLOCK_50;
-	--alias i_reset : std_logic is KEY(0);
+	alias i_clk : std_logic is CLOCK_50;
+	alias i_reset : std_logic is KEY(0);
 	
 	-- Constants --
-	constant c_LED_FREQ : natural := 1_000_000; -- Desired frequency - 13 Hz
-	constant c_HEX_FREQ : natural := 1_000_000; -- Desired frequency - 3 Hz
+	constant c_LED_FREQ : natural := 13; -- Desired frequency - 13 Hz
+	constant c_HEX_FREQ : natural := 3; -- Desired frequency - 3 Hz
 	
 	-- Signals --
 	signal r_LEDG : std_logic_vector(7 downto 0) := X"07";
