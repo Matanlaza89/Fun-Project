@@ -22,6 +22,6 @@ This entity mimics the default action of the development board when it is turned
 <p>
 - Testing the movement of the LEDR <br>
 - Testing the movement of the LEDG <br>
-- Testing the change in value of the 7-segments display <br>
-- *** Note - There are 2 signals of 1 MHz in order to make the test easier ***
+- Testing the change in value of the 7-segments display <br><br>
+*** Note - There are 2 signals of 1 MHz in order to make the test easier ***
 </p>
